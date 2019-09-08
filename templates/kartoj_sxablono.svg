@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="297mm" height="210mm" viewBox="0 0 297 210" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="layer1" transform="translate(25, -92)">
+    {% for k, offset in kartoj_offsets %}
+    <g transform="translate({{ offset[0] }}, {{ offset[1] }})">
+    <rect id="rect52" height="99" width="61" y="198.1" x="0.1" class="fil0 str0"
+       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.20000003;stroke-miterlimit:22.92560005;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"/>
+    <text x="1.4033161" y="226.62379" class="fil1 fnt1" id="text70" transform="scale(0.94546501,1.0576806)"
+       style="font-weight:normal;font-size:9.00545883px;clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke-width:0.00945465;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+         {{ k["vorto"] }}
+    </text>
+    <text x="39.581249" y="320.03058" class="fil1 fnt0" id="text102" transform="scale(1.3407872,0.74583051)"
+       style="font-weight:normal;font-size:12.770998px;clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke-width:0.01340787;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+       -
+    </text>
+    <text x="36.393642" y="277.90945" class="fil1 fnt0" id="text98" transform="scale(1.1594266,0.86249531)"
+       style="font-weight:normal;font-size:11.04353809px;clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke-width:0.01159427;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+         {{ k["finajxo"] }}
+    </text>
+    <image y="-20" x="-5" width="300" height="300" xlink:href="snakeoil_logo.svg" />
+    <g transform="matrix(0.01,0,0,0.01,-89.899913,192.49999)" style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" id="g1068">
+      <line class="fil0 str1" x1="11450" y1="9389" x2="11450" y2="10289" id="line1064" style="fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:22.92560005" />
+      <line class="fil0 str1" x1="12550" y1="9389" x2="12550" y2="10289" id="line1066" style="fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:22.92560005" />
+    </g>
+    <g transform="matrix(0.01,0,0,0.01,-89.899913,192.49999)" style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" id="g1086">
+      <line class="fil0 str1" x1="11450" y1="831" x2="11450" y2="1731" id="line1082" style="fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:22.92560005" />
+      <line class="fil0 str1" x1="12550" y1="831" x2="12550" y2="1731" id="line1084" style="fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:22.92560005" />
+    </g>
+    </g>
+    {% endfor %}
+  </g>
+</svg>
