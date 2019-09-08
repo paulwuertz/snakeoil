@@ -5,19 +5,19 @@
     <g transform="translate({{ offset[0] }}, {{ offset[1] }})">
     <rect id="rect52" height="99" width="61" y="198.1" x="0.1" class="fil0 str0"
        style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.20000003;stroke-miterlimit:22.92560005;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"/>
-    <text x="1.4033161" y="226.62379" class="fil1 fnt1" id="text70" transform="scale(0.94546501,1.0576806)"
-       style="font-weight:normal;font-size:9.00545883px;clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke-width:0.00945465;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <text x="1.4033161" y="226.62379" transform="scale({{ 0.94546501 * 7 / (k['vorto']|length) }},1.0576806)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.28888892px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start">
          {{ k["vorto"] }}
     </text>
-    <text x="39.581249" y="320.03058" class="fil1 fnt0" id="text102" transform="scale(1.3407872,0.74583051)"
-       style="font-weight:normal;font-size:12.770998px;clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke-width:0.01340787;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <text x="39.581249" y="320.03058" transform="scale(1.3407872,0.74583051)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.28888892px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start">
        -
     </text>
-    <text x="36.393642" y="277.90945" class="fil1 fnt0" id="text98" transform="scale(1.1594266,0.86249531)"
-       style="font-weight:normal;font-size:11.04353809px;clip-rule:evenodd;fill:#000000;fill-rule:evenodd;stroke-width:0.01159427;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision">
+    <text x="47" y="239.7" transform="scale(scale({{ 1.1594266 * 1 / (k['vorto']|length) }},1.0576806)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.28888892px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start">
          {{ k["finajxo"] }}
     </text>
-    <image y="-20" x="-5" width="300" height="300" xlink:href="snakeoil_logo.svg" />
+    <image y="250" x="20" width="30" height="30" xlink:href="../img/snakeoil_logo.png" />
     <g transform="matrix(0.01,0,0,0.01,-89.899913,192.49999)" style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" id="g1068">
       <line class="fil0 str1" x1="11450" y1="9389" x2="11450" y2="10289" id="line1064" style="fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:22.92560005" />
       <line class="fil0 str1" x1="12550" y1="9389" x2="12550" y2="10289" id="line1066" style="fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:22.92560005" />
