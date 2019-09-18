@@ -1,136 +1,136 @@
 ---
 - vorto: ALARM
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: ABENTEUER
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: LUFT
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: ALKOHOL
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: WUT
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: TIER
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: KUNST
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: PREIS
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: AXT
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: BART
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: KUSCHEL
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: CONTAINER
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: SACK
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: NUDEL
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: ÖL
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: THERAPIE
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: TSUNAMI
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: BLÄSER
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: GLITSCH
   kvanto: 1
-  finajxo: ""
+  finajxo: "-"
 - vorto: SÄURE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: ANTENNE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: LAVINE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: BAKTERIE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: BLASE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: DRACHE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: HANDSCHELLE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: SCHLANGE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: ZUNGE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: PERÜCKE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: HÖHLE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: HARFE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: SEIFE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: FLASCHE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: PROTHESE
   kvanto: 1
-  finajxo: "N"
+  finajxo: "N-"
 - vorto: ENGEL
   kvanto: 1
-  finajxo: "S"
+  finajxo: "S-"
 - vorto: RÜSTUNG
   kvanto: 1
-  finajxo: "S"
+  finajxo: "S-"
 - vorto: ZWEIFEL
   kvanto: 1
-  finajxo: "S"
+  finajxo: "S-"
 - vorto: KAUFMANN
   kvanto: 1
-  finajxo: "S"
+  finajxo: "S-"
 - vorto: ABZUG
   kvanto: 1
-  finajxo: "S"
+  finajxo: "S-"
 - vorto: ANZUG
   kvanto: 1
-  finajxo: "S"
+  finajxo: "S-"
 - vorto: GRABMAL
   kvanto: 1
-  finajxo: "S"
+  finajxo: "S-"
 - vorto: HIMMEL
   kvanto: 1
-  finajxo: "S"
+  finajxo: "S-"
 - vorto: BUMM
   kvanto: 1
-  finajxo: "S"
+  finajxo: "S-"
 - vorto: GEWERKSCHAFT
   kvanto: 1
-  finajxo: "S"
+  finajxo: "S-"
 - vorto: JURIST
   kvanto: 1
   finajxo: "EN"
