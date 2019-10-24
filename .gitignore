@@ -1,6 +1,5 @@
-*.svg
-*.pdf
-*.png
 *.ipynb_checkpoints/
-*.~*
-
+*.png
+*.pdf
+*.xlsx
+*svg/
