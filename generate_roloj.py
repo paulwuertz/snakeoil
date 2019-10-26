@@ -2,7 +2,6 @@ import jinja2, yaml, os
 import subprocess, textwrap
 
 kartoj = yaml.safe_load(open("roloj.yaml").read())   # listo de kartoj
-print(kartoj)
 kartoj = [k for k in kartoj for i in range(k["kvanto"])] # adpatas la liston por kvanto de karto
 pagxoj = [kartoj[i:i+9] for i in range(0, len(kartoj), 9)] #disigas la kartaro en pagxojn po de 9 kartoj
 
