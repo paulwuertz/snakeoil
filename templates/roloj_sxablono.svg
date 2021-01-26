@@ -3,27 +3,19 @@
 <!--   <g id="layer1" transform="translate(25, -92)"> -->
     {% for k, offset in kartoj_offsets %}
     <g transform="translate({{ offset[0] }}, {{ offset[1] }})">
-        
+    <g>
     <rect id="rect52" height="99" width="60.5" y="198.1" x="0.1" class="fil0 str0"
        style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.0300003;stroke-miterlimit:22.92560005;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"/>
 
-    <!-- 155px == longeco de la vorta kadro, 42.5px == longeco de la finajxa kadro. 20px == pli malpli la longeco de la monospace teksto -->
-    <text x="0.5" y="240" transform="scale({{ 154 / (k['vorto']|length * 20) if k['vorto']|length * 20 < 154 else 154 / (k['vorto']|length * 20) if k['vorto']|length * 20 > 154 else 1.0 }},1.0)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start">
+    <svg height="99" width="60.5">
+    <text x="50%" y="235" text-anchor="middle" font-size="9px" textLength="49" lengthAdjust="spacingAndGlyphs">
       <tspan style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Luxi Mono';-inkscape-font-specification:'Luxi Mono'">
          {{ k["vorto"] }}
       </tspan>
     </text>
+    </svg>
     
-    <!-- la kazo ke la finajxo estas pli longa ol la finajxa kadro ankoraux ne estas programita -->
-    <text x="{{42.5 / (60 / (k['finajxo']|length * 20) if k['finajxo']|length * 20 < 60 else 1.0)}}" y="240" transform="scale({{ 60 / (k['finajxo']|length * 20) if k['finajxo']|length * 20 < 60 else 1.0 }},1.0)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr;text-anchor:start">
-      <tspan style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Luxi Mono';-inkscape-font-specification:'Luxi Mono'">
-        {{ k["finajxo"] }}
-      </tspan>
-    </text>
-    
-    <image y="250" x="42.5" width="16.2" height="18" xlink:href="../img/snakeoil_logo.png" />
+    <image x="20" y="260" width="16.2" height="18" xlink:href="../img/snakeoil_logo.png" />
     <g transform="matrix(0.01,0,0,0.01,-89.899913,192.49999)" style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision" id="g1068">
       <line class="fil0 str1" x1="11450" y1="9389" x2="11450" y2="10289" id="line1064" style="fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:22.92560005" />
       <line class="fil0 str1" x1="12550" y1="9389" x2="12550" y2="10289" id="line1066" style="fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:22.92560005" />
@@ -33,6 +25,7 @@
       <line class="fil0 str1" x1="12550" y1="831" x2="12550" y2="1731" id="line1084" style="fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:22.92560005" />
     </g>
     </g>
+        </g>
     {% endfor %}
 <!--   </g> -->
 </svg>
